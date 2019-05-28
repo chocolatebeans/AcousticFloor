@@ -1,5 +1,5 @@
 server:
-  port: 10201
+  port: 10101
 
 
 #eureka Configuration
@@ -17,4 +17,4 @@ eureka:
 
 spring:
   application:
-    name: api
+    name: SERVICE-DEMO-eureka
