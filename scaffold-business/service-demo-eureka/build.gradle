@@ -1,0 +1,8 @@
+
+description = 'service-demo-eureka'
+dependencies {
+  compile project(':scaffold-business:business-pojo')
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version:'1.4.7.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version:'2.1.5.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version:'2.1.0.RELEASE'
+}

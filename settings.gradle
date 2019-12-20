@@ -1,0 +1,14 @@
+rootProject.name = 'scaffold'
+include ':scaffold-framework:eureka-server'
+include ':scaffold-framework'
+include ':scaffold-business:service-demo-eureka'
+include ':scaffold-business:business-pojo'
+include ':scaffold-business'
+include ':scaffold-api'
+
+project(':scaffold-framework:eureka-server').projectDir = "$rootDir/scaffold-framework/eureka-server" as File
+project(':scaffold-framework').projectDir = "$rootDir/scaffold-framework" as File
+project(':scaffold-business:service-demo-eureka').projectDir = "$rootDir/scaffold-business/service-demo-eureka" as File
+project(':scaffold-business:business-pojo').projectDir = "$rootDir/scaffold-business/business-pojo" as File
+project(':scaffold-business').projectDir = "$rootDir/scaffold-business" as File
+project(':scaffold-api').projectDir = "$rootDir/scaffold-api" as File

@@ -7,3 +7,9 @@ JumpJava/netty_server/mvnw
 *.mvn/
 /.idea/
 /.mvn/
+gradlew
+gradlew.bat
+.gradle/
+gradle/
+out/
+*.class
